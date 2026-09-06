@@ -1,0 +1,29 @@
+# Environments & Keys
+.env
+.env.local
+*.log
+
+# Database Files
+backend/data/
+data/
+*.mv.db
+*.trace.db
+
+# Maven & Java
+backend/target/
+*.class
+.factorypath
+.project
+.settings
+.classpath
+
+# Node & Frontend
+frontend/node_modules/
+frontend/dist/
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.iml
+.vscode/
